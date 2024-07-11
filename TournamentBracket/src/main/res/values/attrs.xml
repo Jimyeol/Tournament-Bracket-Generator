@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TournamentBracket">
+        <attr name="background_color" format="color"/>
+        <attr name="default_line_color" format="color"/>
+        <attr name="default_line_width" format="float"/>
+        <attr name="winner_line_color" format="color"/>
+        <attr name="winner_line_width" format="float"/>
+
+        <attr name="bracket_image_visible" format="boolean"/>
+        <attr name="bracket_default_color" format="color"/>
+        <attr name="bracket_winner_color" format="color"/>
+        <attr name="bracket_loser_color" format="color"/>
+        <attr name="bracket_width_padding" format="dimension"/>
+        <attr name="bracket_height_padding" format="dimension"/>
+        <attr name="bracket_round" format="dimension"/>
+        <attr name="bracket_text_size" format="dimension"/>
+        <attr name="bracket_round_gap_size" format="dimension"/>
+        <attr name="bracket_text_max_length" format="integer"/>
+
+        <attr name="bracket_point_text_visible" format="boolean"/>
+        <attr name="bracket_point_text_size" format="dimension"/>
+        <attr name="bracket_point_text_max_length" format="integer"/>
+
+        <attr name="bracket_bye_text" format="string"/>
+    </declare-styleable>
+</resources>

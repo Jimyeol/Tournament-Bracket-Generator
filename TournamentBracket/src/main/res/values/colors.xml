@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="tournament_background">#FF000000</color>
+    <color name="bracket_rect">#ffffff</color>
+    <color name="bracket_point_rect">#A9A9A9</color>
+    <color name="bracket_text">#FF000000</color>
+    <color name="bracket_line_default">#d3d3d3</color>
+    <color name="bracket_line_winner">#77dd77</color>
+</resources>

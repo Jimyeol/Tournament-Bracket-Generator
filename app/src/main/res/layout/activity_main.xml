@@ -6,13 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.mazecube.tournamentbracket.TournamentBracketView
+        android:id="@+id/tournamentBracketView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnNextRound"
+        android:layout_marginBottom="20dp"
+        app:background_color="@color/tournament_background"
+        app:bracket_text_size="20dp"
+        app:bracket_width_padding="10dp"
+        app:bracket_height_padding="20dp"
+        app:bracket_round="16dp"
+        app:bracket_round_gap_size="100dp"
+        app:default_line_width="5"
+        app:winner_line_width="10"
+        app:bracket_default_color="@color/bracket_rect"
+        app:bracket_image_visible="true"
+        app:bracket_text_max_length="10"
+        app:bracket_point_text_visible="true"
+        app:bracket_point_text_size="16dp"
+        app:bracket_point_text_max_length="5"
+        app:bracket_bye_text=""/>
+
+    <Button
+        android:id="@+id/btnNextRound"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:paddingVertical="20dp"
+        android:text="Next Round"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
