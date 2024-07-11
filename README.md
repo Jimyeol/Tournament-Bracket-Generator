@@ -46,7 +46,7 @@ Clone the library and import it.
 ```
 
 ### Kotlin
-Add participants to the tournament as a list according to the <pre><code>MatchParticipant</code></pre> data class. Initially, the participants will have <pre><code>point</code></pre> and <pre><code>isWinner</code></pre> set to null.
+Add participants to the tournament as a list according to the ```MatchParticipant``` data class. Initially, the participants will have ```point``` and ```isWinner``` set to null.
 ```kotlin
 private lateinit var participants: MutableList<MatchParticipant>
 
